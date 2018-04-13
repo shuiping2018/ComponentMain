@@ -1,0 +1,42 @@
+PODS:
+  - A (3):
+    - B_Category
+    - HandyFrame
+  - A_Category (4):
+    - CTMediator
+  - B_Category (1.1):
+    - CTMediator
+  - CTMediator (13)
+  - HandyFrame (1.2.0)
+  - SPHomeComponentModule (0.0.1)
+
+DEPENDENCIES:
+  - A
+  - A_Category
+  - HandyFrame
+  - SPHomeComponentModule (from `~/Desktop/ComponentHome/`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - B_Category
+    - CTMediator
+    - HandyFrame
+  https://github.com/ModulizationDemo/PrivatePods.git:
+    - A
+    - A_Category
+
+EXTERNAL SOURCES:
+  SPHomeComponentModule:
+    :path: "~/Desktop/ComponentHome/"
+
+SPEC CHECKSUMS:
+  A: 4701e2ccf00c2532b50a3e1f561f5b113f664627
+  A_Category: 04a4d13f6cf5631d0baf56c679862d1f4351f64a
+  B_Category: d643bbbb97fcb1271c9f298a762a385d1c3e7bf9
+  CTMediator: 4cbf8ede42efc6b31715be88b78bdc9d94efa840
+  HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
+  SPHomeComponentModule: 2f663bb58582deab2c6d3e2222c37e6585ef8a10
+
+PODFILE CHECKSUM: 8dd08b6933bae071b8fe62c4b5a1adb0440f840d
+
+COCOAPODS: 1.5.0
